@@ -5,7 +5,12 @@ import Pokecard from './components/Pokecard'
 function App() {
   return (
     <div className="App">
-        <Pokecard></Pokecard>
+        <Pokecard
+          id={4}
+          name="Charmainder"
+          type="fire"
+          exp={62}
+        />
     </div>
   );
 }
